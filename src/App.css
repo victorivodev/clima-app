@@ -7,7 +7,7 @@ body {
   padding: 0;
   overflow: hidden;
   background-image: url(img/fundo.jpg);
-    background-size: cover; /* ou 'contain', dependendo do efeito desejado */
+    background-size: cover; 
   background-position: center;
 }
 
@@ -28,17 +28,17 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  color: #000000; /* Defina a cor do texto para branco */
-  text-align: center; /* Centraliza o texto */
+  color: #000000; 
+  text-align: center; 
 }
 
 .text-container {
-  background-color: #fff; /* Fundo branco */
-  padding: 20px; /* Espaçamento interno */
-  border-radius: 8px; /* Borda arredondada */
-  color: #000; /* Cor do texto preta */
-  text-align: center; /* Centraliza o texto */
-  max-width: 400px; /* Largura máxima do contêiner de texto */
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 8px; 
+  color: #000; 
+  text-align: center; 
+  max-width: 400px; 
 }
 
 

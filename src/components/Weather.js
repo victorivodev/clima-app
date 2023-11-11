@@ -13,7 +13,7 @@ const Weather = () => {
 const getWeather = async () => {
     try {
       const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`);
-      console.log(response.data); // Verifique se os dados são impressos corretamente
+      console.log(response.data); 
   
       const weatherInfo = response.data;
       
